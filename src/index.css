@@ -29,3 +29,7 @@
   --dark-color-3: rgba(67, 61, 80, 0.3);
   --light-color-9: rgba(217, 208, 231, 0.9);
 }
+
+body {
+  @apply font-mono;
+}
