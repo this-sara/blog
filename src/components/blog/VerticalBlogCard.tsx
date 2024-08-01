@@ -20,7 +20,7 @@ const BlogCard: FC<BlogCardProps> = ({ post }) => {
   return (
     <div
       key={slug}
-      className="flex transform flex-col gap-3 rounded-lg border bg-[#F4F4F5] p-3 transition-transform hover:scale-105">
+      className="bg-light flex transform flex-col gap-3 rounded-lg border p-3 transition-transform hover:scale-105">
       <figure className="relative h-40 w-full overflow-hidden bg-gray-200">
         <img
           className="absolute inset-0 h-full w-full rounded-md object-cover"
@@ -30,11 +30,11 @@ const BlogCard: FC<BlogCardProps> = ({ post }) => {
       </figure>
 
       <a href={`/${slug}`}>
-        <h3 className="mb-2 text-xl font-bold text-gray-600 transition-colors duration-200 hover:text-blue-600">
+        <h3 className="hover:text-theme text-primary mb-2 text-xl font-bold transition-colors duration-200">
           {title}
         </h3>
         <p className="text-gray-700">{shortDescription}</p>
-        <p className="mt-4 text-sm font-semibold text-gray-600">
+        <p className="text-primary mt-4 text-sm font-semibold">
           {formatDate(publishDate)} | {estimatedTimeToRead}
         </p>
       </a>

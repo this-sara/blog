@@ -1,9 +1,4 @@
-import {
-  EarthIcon,
-  FacebookIcon,
-  LinkedinIcon,
-  TwitterIcon,
-} from 'lucide-react'
+import { EarthIcon, FacebookIcon, LinkedinIcon, TwitterIcon } from 'lucide-react'
 
 const socialLinks = [
   {
@@ -66,7 +61,7 @@ const contact = {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#191F33]">
+    <footer className="bg-dark">
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid gap-6 py-16 sm:grid-cols-[40fr_30fr_30fr] md:grid-cols-[40fr_30fr_30fr_30fr]">
           <div className="">
@@ -76,9 +71,7 @@ const Footer = () => {
                 className="h-8"
                 alt="Logo"
               />
-              <h6 className="text-3xl font-semibold tracking-wider">
-                Flexy UI
-              </h6>
+              <h6 className="text-3xl font-semibold tracking-wider">Flexy UI</h6>
             </a>
             <address className="mt-3 text-base font-normal text-[#767E94]">
               <p className="mt-3 max-w-64">{contact.address}</p>
@@ -92,8 +85,7 @@ const Footer = () => {
               {support.items.map(({ label, href }) => (
                 <li
                   key={label}
-                  className="mt-3 text-base font-normal text-[#767E94] hover:text-white"
-                >
+                  className="mt-3 text-base font-normal text-[#767E94] hover:text-white">
                   <a href={href}>{label}</a>
                 </li>
               ))}
@@ -105,8 +97,7 @@ const Footer = () => {
               {quickLinks.items.map(({ label, href }) => (
                 <li
                   key={label}
-                  className="mt-3 text-base font-normal text-[#767E94] hover:text-white"
-                >
+                  className="mt-3 text-base font-normal text-[#767E94] hover:text-white">
                   <a href={href}>{label}</a>
                 </li>
               ))}
@@ -118,8 +109,7 @@ const Footer = () => {
               {category.items.map(({ label, href }) => (
                 <li
                   key={label}
-                  className="mt-3 text-base font-normal text-[#767E94] hover:text-white"
-                >
+                  className="mt-3 text-base font-normal text-[#767E94] hover:text-white">
                   <a href={href}>{label}</a>
                 </li>
               ))}
@@ -127,11 +117,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#2E3447]">
+      <div className="bg-mid">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 px-4 py-5 md:flex-row md:justify-between">
           <p className="text-center text-[#767E94]">
-            Learning Online © 2023. Developed by{' '}
-            <span className="text-white">Abdul Basit</span>
+            Learning Online © 2023. Developed by <span className="text-white">Abdul Basit</span>
           </p>
           <ul className="flex items-center gap-6">
             {socialLinks.map(({ name, icon, link }) => (
@@ -141,8 +130,7 @@ const Footer = () => {
                   title={name}
                   className="text-[#767E94] hover:text-white"
                   target="_blank"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   {icon}
                 </a>
                 <span className="sr-only">{name} account</span>
