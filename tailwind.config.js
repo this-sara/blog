@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Menlo', 'sans-serif'],
-        serif: ['Menlo', 'sans-serif'],
-        mono: ['Menlo', 'monospace'],
+        sans: ['Segoe UI', 'ui-sans-serif', 'system-ui'],
+        serif: ['Segoe UI', 'ui-serif', 'Georgia', 'serif'],
+        mono: ['Segoe UI', 'ui-monospace', 'Menlo', 'monospace'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

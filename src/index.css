@@ -31,5 +31,5 @@
 }
 
 body {
-  @apply font-mono;
+  @apply font-sans;
 }
