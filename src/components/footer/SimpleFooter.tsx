@@ -35,7 +35,7 @@ const description =
 
 const Footer = () => {
   return (
-    <footer className="bg-dark relative z-50">
+    <footer className="relative z-50 bg-dark">
       <div className="flex flex-col items-center px-4 py-12">
         {/* app logo */}
         <div>

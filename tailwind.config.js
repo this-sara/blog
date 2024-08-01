@@ -10,23 +10,25 @@ export default {
         'gradient-pattern-2': 'linear-gradient(115deg, #000000, #444444)',
       },
       colors: {
-        theme: 'var(--theme-color)',
-        light: 'var(--light-color)',
+        theme: {
+          DEFAULT: '#fb991c',
+          hover: '#d48119',
+        },
+        light: {
+          DEFAULT: '#f4f4f4',
+          hover: '#e0e0e0',
+        },
 
-        darkest: 'var(--darkest-color)',
-        lightest: 'var(--lightest-color)',
+        darkest: '#292432',
+        lightest: '#ffffff',
 
         // text
-        primary: 'var(--primary-text)',
-        secondary: 'var(--secondary-text)',
+        primary: '#161616',
+        secondary: '#4b5563',
 
         // background
-        dark: 'var(--dark-color)',
-        mid: 'var(--mid-dark-color)',
-
-        // hover
-        'theme-hover': 'var(--theme-hover)',
-        'light-hover': 'var(--light-hover)',
+        dark: '#191f33',
+        mid: '#191f33',
       },
       container: {
         center: true,

@@ -30,7 +30,7 @@ const Navbar = () => {
               className="h-8"
               alt="Logo"
             />
-            <span className="text-primary self-center whitespace-nowrap text-xl font-semibold md:text-2xl">
+            <span className="self-center whitespace-nowrap text-xl font-semibold text-primary md:text-2xl">
               Flexy UI
             </span>
           </a>
@@ -41,7 +41,7 @@ const Navbar = () => {
               <a
                 key={index}
                 href={link}
-                className="text-secondary rounded-md px-3 py-2 transition-colors duration-100 ease-linear hover:bg-gray-700 hover:text-white">
+                className="rounded-md px-3 py-2 text-secondary transition-colors duration-100 ease-linear hover:bg-gray-700 hover:text-white">
                 {title}
               </a>
             ))}
@@ -51,7 +51,7 @@ const Navbar = () => {
         <div>
           <button
             type="button"
-            className="bg-theme hover:bg-theme-hover flex items-center gap-2 rounded-lg border px-4 py-2 text-base font-semibold text-white transition duration-300 ease-in-out active:scale-95 sm:px-5 sm:py-2.5">
+            className="flex items-center gap-2 rounded-lg border bg-theme px-4 py-2 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-theme-hover active:scale-95 sm:px-5 sm:py-2.5">
             <CircleFadingPlus size={18} />
             <span>Submit</span>
           </button>

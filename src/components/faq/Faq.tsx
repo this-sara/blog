@@ -28,8 +28,8 @@ const Faq: React.FC<FaqProps> = ({ items }) => {
   return (
     <section className="mx-auto mt-10 max-w-4xl px-3">
       <div className="mb-8 text-center">
-        <h3 className="text-primary mb-2 text-3xl font-bold">F.A.Q</h3>
-        <p className="text-secondary text-lg font-semibold">
+        <h3 className="mb-2 text-3xl font-bold text-primary">F.A.Q</h3>
+        <p className="text-lg font-semibold text-secondary">
           Questions on your mind? We've got the answers you need.
         </p>
       </div>
@@ -38,7 +38,7 @@ const Faq: React.FC<FaqProps> = ({ items }) => {
           <button
             onClick={() => toggleFaq(index)}
             className="flex w-full items-center justify-between focus:outline-none">
-            <h4 className="text-primary flex-1 text-left text-lg font-semibold">{title}</h4>
+            <h4 className="flex-1 text-left text-lg font-semibold text-primary">{title}</h4>
             <ChevronDown
               className={`h-6 w-6 transition-transform ${
                 activeIndex.includes(index) ? 'rotate-180 transform' : ''
@@ -47,7 +47,7 @@ const Faq: React.FC<FaqProps> = ({ items }) => {
           </button>
           {activeIndex.includes(index) && (
             <div className="mt-3">
-              <p className="text-secondary text-base">{content}</p>
+              <p className="text-base text-secondary">{content}</p>
             </div>
           )}
         </div>
