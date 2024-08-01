@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# React Tailwind Blog Template (13 UI Components)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Blog Section](https://ik.imagekit.io/cpnw7c0xpe/Tailwind%20Components/blog-card-section.png?updatedAt=1721400588954)
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> You are a developer, and your time is precious. Spend it on writing actual software code, not repetitive tasks like flexbox, grid, margin, and padding.
 
-## Expanding the ESLint configuration
+### To use these UI components in your project, you only have to do one thing: COPY-PASTE.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Dependencies
 
-- Configure the top-level `parserOptions` property like this:
+1. Tailwind CSS
+2. Lucide React Icon Library (or any icon library of your choice)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<br>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Categories](https://ik.imagekit.io/cpnw7c0xpe/Tailwind%20Components/category-card.png?updatedAt=1722079237897)
+
+### Live Demo
+
+Check out the [live demo](https://react-tailwind-blog-app-template.netlify.app/) of the blog app to see all the components in action.
+
+### All these UI components are part of [Flexy UI](https://flexyui.com/), you can find details of each component [there](https://flexyui.com/).
+
+[Flexy UI](https://flexyui.com/) is designed to help you build better, and faster UIs in React.
+
+### List of Tailwind UI Components
+
+Total UI components: 13
+
+1. Navbar
+2. Banner
+3. Category Card
+4. Section Heading
+5. Blog Card
+6. FAQ Section
+7. Newsletter
+8. Footer
+
+<br>
+
+![Newsletter](https://ik.imagekit.io/cpnw7c0xpe/Tailwind%20Components/newsletter%20component.png?updatedAt=1720863378181)
+
+### Features
+
+- Clean and elegant design
+- All the components are responsive
+- Adjustable components using props
+- Components are built with TypeScript
+- Multiple variants for most components (keep adding more)
+
+If this repo helps you in your project, don't forget to give it a star!
+
+<br>
+
+![Footer](https://ik.imagekit.io/cpnw7c0xpe/Tailwind%20Components/multi-column-footer.png?updatedAt=1721730133511)
