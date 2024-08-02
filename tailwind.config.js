@@ -33,7 +33,7 @@ export default {
 
         // background
         dark: '#191f33',
-        mid: '#191f33',
+        mid: '#2e3447',
       },
       container: {
         center: true,
