@@ -2,10 +2,9 @@ import { CircleFadingPlus, MenuIcon } from 'lucide-react'
 import { useState } from 'react'
 
 const navLinks = [
-  { title: 'Tools', link: '#' },
-  { title: 'Blog', link: '#' },
-  { title: 'Contact', link: '#' },
-  { title: 'About', link: '#' },
+  { title: 'Accueil', link: '#accueil' },
+  { title: 'Blog', link: '#blog' },
+  { title: 'Catégories', link: '#categories' },
 ]
 
 const Navbar = () => {
